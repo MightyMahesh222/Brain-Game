@@ -1,0 +1,19 @@
+.isError{
+    margin: 10px;
+    font-style: oblique;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.answer{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px rgb(86, 93, 228);
+}
+
+button{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(227, 162, 65);
+}
