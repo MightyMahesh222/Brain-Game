@@ -15,7 +15,7 @@ import LastPage from './Components/LastPage'
 function App() {
   return (
     <div className='app'>
-       <BrowserRouter>
+       <BrowserRouter  basename="/<Brain-Game>">
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path="/page1" element={<Page1/>}/>
