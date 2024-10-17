@@ -36,7 +36,7 @@ const LastPage =()=>{
                 setAnswer('Jasprit Bumrah')
                 break
             case '25':
-                setAnswer('SKY')
+                setAnswer('Surya Kumar')
                 break
             case '32':
                 setAnswer('Shubman Gill')
@@ -46,7 +46,7 @@ const LastPage =()=>{
                 setErr(true)
                 break
         }
-    })
+    },[finalScore])
     return (
         <div className="pageDiv">
         <h1 className="didYou">Here is your result</h1>

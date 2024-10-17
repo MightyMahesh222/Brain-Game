@@ -9,8 +9,8 @@ const Page4 =()=>{
     }
     return (
         <div className="pageDiv">
-        <h1 className="didYou">Did you find your cricketer here?</h1>
-       <div className="nameDiv">
+            <h1 className="didYou">Selected cricketer in the list?</h1>
+            <div className="nameDiv">
             <p className="name">Virat Kohli</p>
             <p className="name">Kl Rahul</p>
             <p className="name">Hardik Pandya</p>
@@ -18,11 +18,12 @@ const Page4 =()=>{
             <p className="name">Jasprit Bumrah</p>
             </div>
            <div className="rowDiv">
-            <div>
-                <button className="yesBtn" onClick={()=>page4ToPage5(22)}>Yes</button>
-            </div>
+            
             <div>
                 <button  className="yesBtn" onClick={()=>page4ToPage5(0)}>No</button>
+            </div>
+            <div>
+                <button className="yesBtn" onClick={()=>page4ToPage5(22)}>Yes</button>
             </div>
             </div>
         </div>
